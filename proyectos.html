@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyectos - Esteban Soto</title>
+    <link rel="stylesheet" href="css2/styles.css">
+    <script src="https://kit.fontawesome.com/4bb89755b7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h2 class="logo"><span>Ing.</span> Esteban.</h2>
+        <nav class="navegacion">
+            <a href="index.html">Inicio</a>
+            <a href="proyectos.html">Proyectos</a>
+        </nav>
+    </header>
+
+    <section class="proyectos">
+        <div class="contenedor-cartas">
+            <div class="carta">
+                <img src="image.png" alt="Proyecto 1">
+                <div class="carta-contenido">
+                    <p>Proyecto Login</p>
+                    <a href="" class="btn">Ver Proyecto</a>
+                </div>
+            </div>
+            <div class="carta">
+                <img src="s.png" alt="Proyecto 2">
+                <div class="carta-contenido">
+                    <p>Página responsiva</p>
+                    <a href="https://github.com/ZTWARRIORDT/ResponsivePage.git" class="btn">Ver Proyecto</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="gitignore">
+        <h3>Cómo Añadir un Archivo .gitignore</h3>
+        <p>Un archivo `.gitignore` es crucial para gestionar qué archivos y directorios deben ser ignorados por Git. Esto es especialmente útil para evitar que archivos generados automáticamente, archivos de configuración local, o información sensible se incluyan en el repositorio. A continuación, te explicamos cómo crear y configurar un archivo `.gitignore`:</p>
+        <ol>
+            <li><strong>Crear el Archivo:</strong> En la raíz de tu proyecto, crea un archivo llamado <code>.gitignore</code>. Puedes hacerlo con un editor de texto o usando el siguiente comando en la terminal:</li>
+            <pre><code>touch .gitignore</code></pre>
+            <li><strong>Agregar Registros al Archivo:</strong> Abre el archivo `.gitignore` en tu editor de texto y agrega las rutas de los archivos y carpetas que quieres ignorar. Aquí algunos ejemplos comunes:</li>
+            <pre><code># Ignorar directorio de dependencias
+node_modules/
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos de sistema de macOS
+.DS_Store</code></pre>
+            <li><strong>Guardar y Añadir al Repositorio:</strong> Guarda el archivo y asegúrate de añadirlo a tu repositorio Git. Usa los siguientes comandos:</li>
+            <pre><code>git add .gitignore
+git commit -m "Añadido archivo .gitignore"</code></pre>
+            <li><strong>Verificar el Estado:</strong> Para asegurarte de que los archivos especificados en `.gitignore` están siendo ignorados correctamente, puedes usar el comando:</li>
+            <pre><code>git status</code></pre>
+            <p>Si todo está configurado correctamente, los archivos y directorios listados en el archivo `.gitignore` no aparecerán en el estado del repositorio.</p>
+        </ol>
+    </section>
+
+    <section class="iconos-redes">
+        <div class="iconos">
+            <a href="https://www.instagram.com/zt_soto?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://github.com/ZTWARRIORDT" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+    </section>
+</body>
+</html>

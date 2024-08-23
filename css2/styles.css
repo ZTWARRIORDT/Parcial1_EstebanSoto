@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #3772ff;
+}
+header {
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    color: #3772ff;
+}
+
+.navegacion a {
+    font-size: 1.2em;
+    color: #fff;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.navegacion a:hover{
+    color: #3772ff;
+}
+
+.contenedor-cartas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.carta {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    width: 300px;
+    overflow: hidden;
+    transition: transform 0.2s;
+}
+
+.carta:hover {
+    transform: translateY(-10px);
+}
+
+.carta img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.carta-contenido {
+    padding: 15px;
+    text-align: center;
+}
+
+.carta p {
+    margin: 15px 0;
+    color: #333;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3772ff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #3772ff;
+}
+
+.iconos-redes {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.iconos a {
+    color: #333;
+    margin: 0 15px;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.iconos a:hover {
+    color: #fff;
+}
+
+.gitignore {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gitignore h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.gitignore p {
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.gitignore ol {
+    text-align: left;
+    margin: 20px auto;
+    display: inline-block;
+    max-width: 100%;
+    text-align: left;
+}
+
+.gitignore code {
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 2px 4px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+.gitignore pre {
+    background-color: #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+    text-align: left;
+    overflow-x: auto;
+}
